@@ -4,6 +4,7 @@ jobs:
   print_demo:
     runs-on: windows-latest
     steps:
+      - name: Print to console
         run: echo "Hello GH Actions!!"
       - name: Print few liles
         run: | 
