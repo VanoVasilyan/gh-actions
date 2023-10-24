@@ -1,6 +1,6 @@
 name: Demo WorkFlow
 on: workflow_dispatch
-jobs: 
+jobs:
   print_demo:
     runs-on: windows-latest
     steps:
