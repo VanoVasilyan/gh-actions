@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Print to console
         run: echo "Hello GH Actions!!"
+      - name: Print few liles
+        run: | 
+          echo "First Line"
+          echo "Second Line"
+          echo "Third Line"
